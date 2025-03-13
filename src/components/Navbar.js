@@ -1,6 +1,7 @@
 import { useState} from "react";
 import React from "react";
 import { FaBars, FaHome, FaIdCard, FaLayerGroup, FaLink, FaList, FaTimes, FaPager } from "react-icons/fa";
+import { FiFeather } from "react-icons/fi";
 import { Link as LinkRoll } from "react-scroll";
 import { Link } from "react-router-dom";
 import BOLA from "../ClubLogos/BOLA-1.png";
@@ -49,7 +50,12 @@ const NavBar = () => {
          </div>
         
         </div>
-
+        <div className="flex gap-2 px-4 cursor-pointer capitalize font-medium hover:text-[#c5eaf4]  duration-200" >
+    
+    <FiFeather size={20} />
+    <Link to="/malhar" target="_blank" rel="noopener noreferrer" smooth duration={500}>Malhar</Link>
+                
+    </div>
         <div className="flex gap-2 px-4 cursor-pointer capitalize font-medium hover:text-[#c5eaf4]  duration-200" 
          onMouseEnter={handleClubHover}
          onMouseLeave={handleClubLeave}>
