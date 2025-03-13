@@ -1,17 +1,16 @@
 import React from "react";
 import { FaFacebook, FaInstagram, FaLinkedin, FaYoutube } from "react-icons/fa";
-import footerbg from "../Malhar/footerbg.png";
 
 const FooterMalhar = () => {
   return (
     <footer
       className="relative bg-cover bg-center bg-no-repeat text-white py-10"
-      style={{ backgroundImage: `url(${footerbg})` }}
+      style={{ backgroundImage: "url('/Malhar/footerbg.png')" }}
     >
 <div className="container mx-auto pt-32 text-center">
         {/* Malhar Logo */}
         <div className="flex justify-center mb-6">
-          <img src="/path-to-logo.png" alt="Malhar Logo" className="w-48" />
+          <img src="/Malhar/lo.jpg" alt="Malhar Logo" className="w-48" />
         </div>
 
         {/* Navigation Links */}

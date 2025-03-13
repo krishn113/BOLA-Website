@@ -1,5 +1,5 @@
 import React from "react";
-import { EventGallery } from "../components/EventCard"; // Adjust path if necessary
+import { EventGallery, EventsBar } from "../components/EventCard"; // Adjust path if necessary
 import FooterMalhar from "../components/FooterMalhar";
 
 const Malhar = () => {
@@ -8,7 +8,7 @@ const Malhar = () => {
       <header className="text-center py-12">
         <h1 className="text-5xl font-bold text-gray-900">Malhar - Literary Fest</h1>
       </header>
-      <EventGallery />
+      <EventsBar />
       <FooterMalhar/>
     </div>
   );
