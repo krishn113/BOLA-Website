@@ -1,5 +1,6 @@
 import React from "react";
 import { EventGallery } from "../components/EventCard"; // Adjust path if necessary
+import FooterMalhar from "../components/FooterMalhar";
 
 const Malhar = () => {
   return (
@@ -8,6 +9,7 @@ const Malhar = () => {
         <h1 className="text-5xl font-bold text-gray-900">Malhar - Literary Fest</h1>
       </header>
       <EventGallery />
+      <FooterMalhar/>
     </div>
   );
 };
