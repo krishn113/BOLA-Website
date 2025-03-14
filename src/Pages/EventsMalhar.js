@@ -3,6 +3,7 @@ import eventsData from "../data/events.json";
 import EventSmall from "../components/EventSmall";
 import EventModal from "../components/EventModal";
 import NavbarMalhar from "../components/NavbarMalhar";
+import FooterMalhar from "../components/FooterMalhar";
 
 const EventsMalhar = () => {
   const [selectedEvent, setSelectedEvent] = useState(null);
@@ -30,7 +31,9 @@ const EventsMalhar = () => {
       {selectedEvent && (
         <EventModal event={selectedEvent} onClose={() => setSelectedEvent(null)} />
       )}
+      <FooterMalhar />
     </div>
+    
   );
 };
 
