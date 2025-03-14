@@ -33,7 +33,7 @@ const FooterMalhar = () => {
         </nav>
         
 
-        <div className="flex flex-wrap justify-between items-center gap-8 text-lg mt-6">
+        <div className="flex flex-wrap justify-center items-center gap-8 text-lg mt-6">
           {/* Social Media Icons */}
           <div className="flex space-x-6 text-3xl">
             <a href="#" className="hover:text-gray-300">

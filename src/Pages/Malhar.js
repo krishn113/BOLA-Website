@@ -6,17 +6,26 @@ import NavbarMalhar from "../components/NavbarMalhar";
 const Malhar = () => {
   return (
     <div className="relative min-h-screen bg-[#D0C2A5]">
-      <div
-        className="absolute top-0 left-0 w-full h-full sm:h-[100vh] bg-cover bg-center flex justify-center items-center"
-        style={{ backgroundImage: "url('/Malhar/backe.jpg')" }}
-      >
-        <div className="flex flex-col justify-center items-center w-full text-center">
-          {/* Logo */}
-          <img src="/Malhar/log.png" alt="Malhar Logo" className="w-40 mb-4 mt-32" />
+  <div
+    className="absolute top-0 left-0 w-full h-full sm:h-[100vh] bg-cover bg-center flex justify-center items-center"
+    style={{ backgroundImage: "url('/Malhar/backe.jpg')" }}
+  >
+    <div className="flex flex-col justify-center items-center w-full text-center">
+      {/* Logo */}
+      <img src="/Malhar/log.png" alt="Malhar Logo" className="w-40 mb-4 mt-32" />
           {/* Fixed header image - replaced incorrect image tag */}
           <img src="/Malhar/head.png" alt="Malhar Header" className="max-w-xs md:max-w-md lg:max-w-lg -mt-20" />
-        </div>
+        
+
+      {/* Dates Section */}
+      <div className="mt-8 text-white font-bold text-4xl sm:text-5xl md:text-6xl lg:text-5xl -mt-16">
+        12 - 14 April
       </div>
+    </div>
+  </div>
+
+  
+
 
       <NavbarMalhar />
 <div className="container mx-auto px-4" style={{ marginTop: '700px' }}> {/* Custom margin-top for more space */}
