@@ -98,21 +98,29 @@ const Malhar = () => {
                 tells a story of joy, creativity, and togetherness that define our festival.
               </p>
               <div className="mt-6">
-                <button className="bg-gray-200 text-gray-700 py-2 px-6 rounded-full hover:bg-gray-300 transition">
-                  Explore our gallery
-                </button>
+              <button
+    className="bg-gray-200 text-gray-700 py-2 px-6 rounded-full hover:bg-gray-300 transition"
+    onClick={() => window.open("https://drive.google.com/drive/folders/1Zv6G0MDj4y7SFgA13tL8YyPWZ-1Vi9FD", "_blank")}
+  >
+          Explore our gallery
+            </button>
+
               </div>
             </div>
 
             {/* Right column - Image Collage */}
-            <div className="md:w-1/2 grid grid-cols-2 gap-2">
-              <img src="/gallery/performer1.jpg" alt="Festival performer" className="w-full h-40 object-cover" />
-              <img src="/gallery/performer2.jpg" alt="Musical performance" className="w-full h-40 object-cover" />
-              <img src="/gallery/performer3.jpg" alt="Cultural performance" className="w-full h-40 object-cover" />
-              <img src="/gallery/performer4.jpg" alt="Art display" className="w-full h-40 object-cover" />
-              <img src="/gallery/performer5.jpg" alt="Dance performance" className="w-full h-40 object-cover" />
-              <img src="/gallery/performer6.jpg" alt="Festival moments" className="w-full h-40 object-cover" />
-            </div>
+            <div className="md:w-1/2 grid grid-cols-2 gap-2 relative">
+  <img src="/Malhar/highlights1.jpg" alt="Festival performer" className="w-full h-40 object-cover rounded-lg shadow-md" />
+  <img src="/Malhar/highlights2.jpg" alt="Festival performer" className="w-full h-40 object-cover rounded-lg shadow-md" />
+
+  <img src="/Malhar/highlights3.jpg" alt="Festival performer" className="w-full h-40 object-cover rounded-lg shadow-md translate-x-1/2" />
+  <img src="/Malhar/highlights4.jpg" alt="Festival performer" className="w-full h-40 object-cover rounded-lg shadow-md translate-x-1/2" />
+
+  <img src="/Malhar/highlights5.jpg" alt="Festival performer" className="w-full h-40 object-cover rounded-lg shadow-md" />
+  <img src="/Malhar/highlights6.jpg" alt="Festival performer" className="w-full h-40 object-cover rounded-lg shadow-md" />
+</div>
+
+
           </div>
         </div>
       </div>
