@@ -17,33 +17,33 @@ const EventModal = ({ event, onClose }) => {
         onClick={(e) => e.stopPropagation()}
       >
         <button
-          className="absolute top-8 right-10 text-3xl font-bold text-white bg-black bg-opacity-50 px-2 rounded-full"
+          className="absolute top-8 right-10 text-3xl font-bold text-[#4E342E] bg-black bg-opacity-50 px-2 rounded-full"
           onClick={onClose}
         >
           ×
         </button>
 
         <div className="flex flex-col md:flex-row w-full flex-grow justify-between">
-          <div className="flex flex-col justify-center w-full md:w-1/2 p-5 text-white">
-            <h2 className="text-3xl font-bold">{event.title}</h2>
-            <p className="mt-2 text-lg">{event.description}</p>
+          <div className="flex flex-col justify-center w-full md:w-1/2 p-5">
+            <h2 className="text-3xl font-bold text-[#4E342E]">{event.title}</h2>
+            <p className="mt-2 text-lg text-[#6D4C41]">{event.description}</p>
 
-            <p className="mt-4 text-lg font-semibold">
-              Registration Fee: <span className="text-yellow-300">{event.fee}</span>
+            <p className="mt-4 text-lg font-semibold text-[#4E342E]">
+              Registration Fee: <span className="text-[#A1887F]">{event.fee}</span>
             </p>
 
-            <p className="mt-4 text-lg font-semibold">
-              Coordinator: <span className="text-yellow-300">{event.coordinator}</span>
+            <p className="mt-4 text-lg font-semibold text-[#4E342E]">
+              Coordinator: <span className="text-[#A1887F]">{event.coordinator}</span>
             </p>
 
-            <p className="text-lg font-semibold">Contact: {event.contact}</p>
+            <p className="text-lg font-semibold text-[#4E342E]">Contact: <span className="text-[#A1887F]">{event.contact}</span></p>
           </div>
 
           <div className="flex items-center justify-center w-full md:w-1/2 p-5">
             <img
               src={event.image}
               alt={event.title}
-              className="w-48 h-48 object-cover rounded-md shadow-lg"
+              className="w-80 h-80 object-cover rounded-md shadow-lg"
             />
           </div>
         </div>
@@ -51,7 +51,7 @@ const EventModal = ({ event, onClose }) => {
         <div className="flex justify-center gap-4 mb-6">
           <a
             href={event.rulebook}
-            className="bg-black text-white w-44 text-center font-semibold text-lg px-6 py-3 relative overflow-hidden transition-all"
+            className="bg-black text-[#D7CCC8] w-44 text-center font-semibold text-lg px-6 py-3 relative overflow-hidden transition-all"
             style={{
               clipPath:
                 "polygon(0 0, 100% 0%, 98% 35%, 100% 60%, 97% 100%, 0% 100%, 2% 60%, 0% 35%)",
@@ -62,7 +62,7 @@ const EventModal = ({ event, onClose }) => {
           </a>
           <a
             href={event.registerLink}
-            className="bg-black text-white w-44 text-center font-semibold text-lg px-6 py-3 relative overflow-hidden transition-all"
+            className="bg-black text-[#D7CCC8] w-44 text-center font-semibold text-lg px-6 py-3 relative overflow-hidden transition-all"
             style={{
               clipPath:
                 "polygon(0 0, 100% 0%, 98% 35%, 100% 60%, 97% 100%, 0% 100%, 2% 60%, 0% 35%)",
