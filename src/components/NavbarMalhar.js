@@ -21,8 +21,16 @@ const Navbar = () => {
               <Link to="/schedule" className="font-bold text-xl tracking-wide uppercase hover:text-gray-300 transition-colors">Schedule</Link>
             </li>
             <li>
-              <Link to="/gallery" className="font-bold text-xl tracking-wide uppercase hover:text-gray-300 transition-colors">Gallery</Link>
-            </li>
+  <a 
+    href="https://drive.google.com/drive/folders/1Zv6G0MDj4y7SFgA13tL8YyPWZ-1Vi9FD" 
+    target="_blank" 
+    rel="noopener noreferrer"
+    className="font-bold text-xl tracking-wide uppercase hover:text-gray-300 transition-colors"
+  >
+    Gallery
+  </a>
+</li>
+
           </ul>
         </nav>
       </div>
