@@ -10,7 +10,11 @@ const NavBar = () => {
   const [nav, setNav] = useState(false);
   const [showClubs, setShowClubs] = useState(false);
   const [showLinks, setShowLinks] = useState(false);
-
+  const currentPath=window.location.pathname;
+  const hideNavbarPaths=['/malhar'];
+  if (hideNavbarPaths.some(path=>currentPath.includes(path))){
+    return null;
+  }
 
   const handleClubHover = () => {
     setShowClubs(true);

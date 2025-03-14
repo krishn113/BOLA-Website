@@ -10,7 +10,7 @@ const FooterMalhar = () => {
 <div className="container mx-auto pt-32 text-center">
         {/* Malhar Logo */}
         <div className="flex justify-center mb-6">
-          <img src="/Malhar/lo.jpg" alt="Malhar Logo" className="w-48" />
+          <img src="/Malhar/log.png" alt="Malhar Logo" className="w-48" />
         </div>
 
         {/* Navigation Links */}
