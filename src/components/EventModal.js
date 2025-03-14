@@ -3,7 +3,7 @@ import React from "react";
 const EventModal = ({ event, onClose }) => {
   return (
     <div
-      className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center p-5"
+      className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center p-5 z-50"
       onClick={onClose}
     >
       <div

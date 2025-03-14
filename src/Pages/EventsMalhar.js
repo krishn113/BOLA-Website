@@ -9,18 +9,22 @@ const EventsMalhar = () => {
   const [selectedEvent, setSelectedEvent] = useState(null);
 
   return (
-    <div className="relative min-h-screen bg-[#D0C2A5]">
+    <div className="bg-[#D0C2A5] overflow-hidden">
+      {/* Hero Section */}
       <div
-        className="absolute top-0 left-0 w-full h-[40vh] sm:h-[50vh] bg-cover bg-center flex justify-center items-center"
+        className="absolute top-0 left-0 w-full h-[35vh] sm:h-[50vh] bg-cover bg-center flex justify-center items-center px-4"
         style={{ backgroundImage: "url('/Malhar/bg2.jpg')" }}
       >
-        <h1 className="text-white text-5xl font-bold">Events</h1>
+        <h1 className="text-white text-3xl sm:text-5xl font-bold text-center">
+          Events
+        </h1>
       </div>
 
       <NavbarMalhar />
 
-      <div className="container bg-transparent mx-auto px-6 py-8 mt-[40vh] sm:mt-[50vh]">
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-10 gap-y-16 mb-4">
+      {/* Events Grid */}
+      <div className="container bg-transparent mx-auto px-4 sm:px-6 py-8 mt-[35vh] sm:mt-[50vh]">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 md:gap-10 mb-4">
           {eventsData.map((event) => (
             <EventSmall key={event.id} event={event} onClick={() => setSelectedEvent(event)} />
           ))}
@@ -31,9 +35,9 @@ const EventsMalhar = () => {
       {selectedEvent && (
         <EventModal event={selectedEvent} onClose={() => setSelectedEvent(null)} />
       )}
+      
       <FooterMalhar />
     </div>
-    
   );
 };
 
