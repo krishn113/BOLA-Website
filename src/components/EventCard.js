@@ -42,9 +42,9 @@ const EventsBar = () => {
       {/* Title Centered */}
       <h1 className="text-4xl text-white font-bold mb-6 text-center">Events</h1>
 
-      {/* Horizontal Scroll Section with Padding Fix */}
+      {/* Horizontal Scroll Section */}
       <div className="relative w-full px-6">
-        <div className="flex gap-x-6 overflow-x-auto scrollbar-hide whitespace-nowrap snap-x snap-mandatory no-scrollbar pb-5 scroll-ml-6 justify-start">
+        <div className="flex gap-x-12 overflow-x-auto scrollbar-hide whitespace-nowrap snap-x snap-mandatory no-scrollbar pb-5 scroll-ml-6 justify-start">
           {events.map((event, index) => (
             <EventCard key={index} title={event.title} description={event.description} image={event.image} />
           ))}

@@ -1,5 +1,5 @@
 import React from "react";
-import { EventGallery, EventsBar } from "../components/EventCard"; 
+import {EventsBar } from "../components/EventCard"; 
 import FooterMalhar from "../components/FooterMalhar";
 import NavbarMalhar from "../components/NavbarMalhar";
 

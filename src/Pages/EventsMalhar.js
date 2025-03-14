@@ -20,7 +20,7 @@ const EventsMalhar = () => {
       <NavbarMalhar />
 
       <div className="container bg-transparent mx-auto px-6 py-8 mt-[40vh] sm:mt-[50vh]">
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-10 gap-y-16 mb-4">
           {eventsData.map((event) => (
             <EventSmall key={event.id} event={event} onClick={() => setSelectedEvent(event)} />
           ))}
