@@ -12,7 +12,7 @@ const Navbar = () => {
         <nav>
           <ul className="flex justify-center space-x-44"> {/* Increased space between links */}
             <li>
-              <Link to="/" className="font-bold text-xl tracking-wide uppercase hover:text-gray-300 transition-colors">Home</Link> {/* Made text bolder and larger */}
+              <Link to="/malhar" className="font-bold text-xl tracking-wide uppercase hover:text-gray-300 transition-colors">Home</Link> {/* Made text bolder and larger */}
             </li>
             <li>
               <Link to="/malhar/events" className="font-bold text-xl tracking-wide uppercase hover:text-gray-300 transition-colors">Events</Link>
