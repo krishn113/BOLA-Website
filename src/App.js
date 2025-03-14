@@ -11,6 +11,8 @@ import MUN from "./Pages/MUN";
 import Alpha from "./Pages/Alpha";
 import Home from "./Pages/Home";
 import Malhar from "./Pages/Malhar";
+import EventsMalhar from "./Pages/EventsMalhar";
+
 
 function App() {
 
@@ -21,6 +23,7 @@ function App() {
                 <Route path="/" element={<Home />}/>
                 
                 <Route path="/malhar" element={<Malhar/>}/>
+                <Route path="/malhar/events" element={<EventsMalhar/>}/>
                 <Route path="/clubs/Alfaaz" element={<Alfaaz />}/>
                 <Route path="/clubs/DebSoc" element={<DebSoc />}/>
                 <Route path="/clubs/Enigma" element={<Enigma />}/>

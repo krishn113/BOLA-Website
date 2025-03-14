@@ -1,0 +1,114 @@
+[
+    {
+      "id": 1,
+      "title": "AD-MAD",
+      "fee": "99 Rs",
+      "image": "/Malhar/bg2.jpg",
+      "description": "A creative advertising competition.A creative advertising competition.A creative advertising competition.A creative advertising competition.",
+      "prize": "Win exciting prizes!",
+      "registerLink": "#",
+      "rulebook": "#",
+      "coordinator": "Krishna Agarwal",
+      "contact": "+91 9667612704"
+    },
+    {
+      "id": 2,
+      "title": "Artathon: Speed Painting",
+      "image": "/images/artathon.jpg",
+      "description": "Speed painting competition with a 12K prize pool.",
+      "prize": "12K Prize Pool",
+      "registerLink": "#",
+      "rulebook": "#"
+    },
+    {
+      "id": 3,
+      "title": "Artees: T-shirt Painting",
+      "image": "/images/artees.jpg",
+      "description": "Design creative T-shirts!",
+      "prize": "Showcase your creativity.",
+      "registerLink": "#",
+      "rulebook": "#"
+    },
+    {
+      "id": 1,
+      "title": "AD-MAD",
+      "image": "/images/ad-mad.jpg",
+      "description": "A creative advertising competition.",
+      "prize": "Win exciting prizes!",
+      "registerLink": "#",
+      "rulebook": "#"
+    },
+    {
+      "id": 2,
+      "title": "Artathon: Speed Painting",
+      "image": "/images/artathon.jpg",
+      "description": "Speed painting competition with a 12K prize pool.",
+      "prize": "12K Prize Pool",
+      "registerLink": "#",
+      "rulebook": "#"
+    },
+    {
+      "id": 3,
+      "title": "Artees: T-shirt Painting",
+      "image": "/images/artees.jpg",
+      "description": "Design creative T-shirts!",
+      "prize": "Showcase your creativity.",
+      "registerLink": "#",
+      "rulebook": "#"
+    },
+      {
+        "id": 1,
+        "title": "AD-MAD",
+        "image": "/images/ad-mad.jpg",
+        "description": "A creative advertising competition.",
+        "prize": "Win exciting prizes!",
+        "registerLink": "#",
+        "rulebook": "#"
+      },
+      {
+        "id": 2,
+        "title": "Artathon: Speed Painting",
+        "image": "/images/artathon.jpg",
+        "description": "Speed painting competition with a 12K prize pool.",
+        "prize": "12K Prize Pool",
+        "registerLink": "#",
+        "rulebook": "#"
+      },
+      {
+        "id": 3,
+        "title": "Artees: T-shirt Painting",
+        "image": "/images/artees.jpg",
+        "description": "Design creative T-shirts!",
+        "prize": "Showcase your creativity.",
+        "registerLink": "#",
+        "rulebook": "#"
+      },
+      {
+        "id": 1,
+        "title": "AD-MAD",
+        "image": "/images/ad-mad.jpg",
+        "description": "A creative advertising competition.",
+        "prize": "Win exciting prizes!",
+        "registerLink": "#",
+        "rulebook": "#"
+      },
+      {
+        "id": 2,
+        "title": "Artathon: Speed Painting",
+        "image": "/images/artathon.jpg",
+        "description": "Speed painting competition with a 12K prize pool.",
+        "prize": "12K Prize Pool",
+        "registerLink": "#",
+        "rulebook": "#"
+      },
+      {
+        "id": 3,
+        "title": "Artees: T-shirt Painting",
+        "image": "/images/artees.jpg",
+        "description": "Design creative T-shirts!",
+        "prize": "Showcase your creativity.",
+        "registerLink": "#",
+        "rulebook": "#"
+      }  
+  ]
+  

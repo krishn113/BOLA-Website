@@ -15,7 +15,7 @@ const Navbar = () => {
               <Link to="/" className="font-bold text-xl tracking-wide uppercase hover:text-gray-300 transition-colors">Home</Link> {/* Made text bolder and larger */}
             </li>
             <li>
-              <Link to="/events" className="font-bold text-xl tracking-wide uppercase hover:text-gray-300 transition-colors">Events</Link>
+              <Link to="/malhar/events" className="font-bold text-xl tracking-wide uppercase hover:text-gray-300 transition-colors">Events</Link>
             </li>
             <li>
               <Link to="/schedule" className="font-bold text-xl tracking-wide uppercase hover:text-gray-300 transition-colors">Schedule</Link>
